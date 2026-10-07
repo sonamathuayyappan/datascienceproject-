@@ -1,0 +1,4019 @@
+{
+  "summary": {
+    "total_records": 36500,
+    "target_mean": 2.83,
+    "target_std": 0.53,
+    "target_min": 1.32,
+    "target_max": 4.17,
+    "target_median": 2.8,
+    "temp_mean": 28.62,
+    "age_mean": 41.48
+  },
+  "distribution": [
+    {
+      "bin_start": 1.32,
+      "bin_end": 1.43,
+      "label": "1.32-1.43 L",
+      "count": 8,
+      "percentage": 0.02
+    },
+    {
+      "bin_start": 1.43,
+      "bin_end": 1.55,
+      "label": "1.43-1.55 L",
+      "count": 27,
+      "percentage": 0.07
+    },
+    {
+      "bin_start": 1.55,
+      "bin_end": 1.66,
+      "label": "1.55-1.66 L",
+      "count": 118,
+      "percentage": 0.32
+    },
+    {
+      "bin_start": 1.66,
+      "bin_end": 1.78,
+      "label": "1.66-1.78 L",
+      "count": 300,
+      "percentage": 0.82
+    },
+    {
+      "bin_start": 1.78,
+      "bin_end": 1.89,
+      "label": "1.78-1.89 L",
+      "count": 635,
+      "percentage": 1.74
+    },
+    {
+      "bin_start": 1.89,
+      "bin_end": 2.0,
+      "label": "1.89-2.00 L",
+      "count": 800,
+      "percentage": 2.19
+    },
+    {
+      "bin_start": 2.0,
+      "bin_end": 2.12,
+      "label": "2.00-2.12 L",
+      "count": 1205,
+      "percentage": 3.3
+    },
+    {
+      "bin_start": 2.12,
+      "bin_end": 2.23,
+      "label": "2.12-2.23 L",
+      "count": 1720,
+      "percentage": 4.71
+    },
+    {
+      "bin_start": 2.23,
+      "bin_end": 2.35,
+      "label": "2.23-2.35 L",
+      "count": 2111,
+      "percentage": 5.78
+    },
+    {
+      "bin_start": 2.35,
+      "bin_end": 2.46,
+      "label": "2.35-2.46 L",
+      "count": 2462,
+      "percentage": 6.75
+    },
+    {
+      "bin_start": 2.46,
+      "bin_end": 2.57,
+      "label": "2.46-2.57 L",
+      "count": 3016,
+      "percentage": 8.26
+    },
+    {
+      "bin_start": 2.57,
+      "bin_end": 2.69,
+      "label": "2.57-2.69 L",
+      "count": 2851,
+      "percentage": 7.81
+    },
+    {
+      "bin_start": 2.69,
+      "bin_end": 2.8,
+      "label": "2.69-2.80 L",
+      "count": 3132,
+      "percentage": 8.58
+    },
+    {
+      "bin_start": 2.8,
+      "bin_end": 2.92,
+      "label": "2.80-2.92 L",
+      "count": 2794,
+      "percentage": 7.65
+    },
+    {
+      "bin_start": 2.92,
+      "bin_end": 3.03,
+      "label": "2.92-3.03 L",
+      "count": 2824,
+      "percentage": 7.74
+    },
+    {
+      "bin_start": 3.03,
+      "bin_end": 3.14,
+      "label": "3.03-3.14 L",
+      "count": 2462,
+      "percentage": 6.75
+    },
+    {
+      "bin_start": 3.14,
+      "bin_end": 3.26,
+      "label": "3.14-3.26 L",
+      "count": 2144,
+      "percentage": 5.87
+    },
+    {
+      "bin_start": 3.26,
+      "bin_end": 3.37,
+      "label": "3.26-3.37 L",
+      "count": 1861,
+      "percentage": 5.1
+    },
+    {
+      "bin_start": 3.37,
+      "bin_end": 3.49,
+      "label": "3.37-3.49 L",
+      "count": 1495,
+      "percentage": 4.1
+    },
+    {
+      "bin_start": 3.49,
+      "bin_end": 3.6,
+      "label": "3.49-3.60 L",
+      "count": 1233,
+      "percentage": 3.38
+    },
+    {
+      "bin_start": 3.6,
+      "bin_end": 3.71,
+      "label": "3.60-3.71 L",
+      "count": 1086,
+      "percentage": 2.98
+    },
+    {
+      "bin_start": 3.71,
+      "bin_end": 3.83,
+      "label": "3.71-3.83 L",
+      "count": 701,
+      "percentage": 1.92
+    },
+    {
+      "bin_start": 3.83,
+      "bin_end": 3.94,
+      "label": "3.83-3.94 L",
+      "count": 594,
+      "percentage": 1.63
+    },
+    {
+      "bin_start": 3.94,
+      "bin_end": 4.06,
+      "label": "3.94-4.06 L",
+      "count": 381,
+      "percentage": 1.04
+    },
+    {
+      "bin_start": 4.06,
+      "bin_end": 4.17,
+      "label": "4.06-4.17 L",
+      "count": 540,
+      "percentage": 1.48
+    }
+  ],
+  "correlation": {
+    "features": [
+      "Age",
+      "Gender_encoded",
+      "City_encoded",
+      "Temperature_C",
+      "Activity_encoded",
+      "Water_Consumed_Liters"
+    ],
+    "display_names": [
+      "Age",
+      "Gender",
+      "City",
+      "Ambient Temperature (\u00b0C)",
+      "Physical Activity Level",
+      "Water Consumed (L)"
+    ],
+    "matrix": [
+      {
+        "feature": "Age",
+        "display_name": "Age",
+        "correlations": {
+          "Age": 1.0,
+          "Gender_encoded": 0.007,
+          "City_encoded": -0.027,
+          "Temperature_C": 0.021,
+          "Activity_encoded": 0.019,
+          "Water_Consumed_Liters": -0.056
+        }
+      },
+      {
+        "feature": "Gender_encoded",
+        "display_name": "Gender",
+        "correlations": {
+          "Age": 0.007,
+          "Gender_encoded": 1.0,
+          "City_encoded": 0.077,
+          "Temperature_C": -0.003,
+          "Activity_encoded": 0.02,
+          "Water_Consumed_Liters": 0.129
+        }
+      },
+      {
+        "feature": "City_encoded",
+        "display_name": "City",
+        "correlations": {
+          "Age": -0.027,
+          "Gender_encoded": 0.077,
+          "City_encoded": 1.0,
+          "Temperature_C": -0.079,
+          "Activity_encoded": 0.025,
+          "Water_Consumed_Liters": -0.072
+        }
+      },
+      {
+        "feature": "Temperature_C",
+        "display_name": "Ambient Temperature (\u00b0C)",
+        "correlations": {
+          "Age": 0.021,
+          "Gender_encoded": -0.003,
+          "City_encoded": -0.079,
+          "Temperature_C": 1.0,
+          "Activity_encoded": -0.012,
+          "Water_Consumed_Liters": 0.775
+        }
+      },
+      {
+        "feature": "Activity_encoded",
+        "display_name": "Physical Activity Level",
+        "correlations": {
+          "Age": 0.019,
+          "Gender_encoded": 0.02,
+          "City_encoded": 0.025,
+          "Temperature_C": -0.012,
+          "Activity_encoded": 1.0,
+          "Water_Consumed_Liters": -0.258
+        }
+      },
+      {
+        "feature": "Water_Consumed_Liters",
+        "display_name": "Water Consumed (L)",
+        "correlations": {
+          "Age": -0.056,
+          "Gender_encoded": 0.129,
+          "City_encoded": -0.072,
+          "Temperature_C": 0.775,
+          "Activity_encoded": -0.258,
+          "Water_Consumed_Liters": 1.0
+        }
+      }
+    ]
+  },
+  "by_gender": [
+    {
+      "gender": "Female",
+      "min": 1.32,
+      "q25": 2.33,
+      "median": 2.68,
+      "q75": 3.07,
+      "max": 4.17,
+      "mean": 2.71,
+      "count": 14965
+    },
+    {
+      "gender": "Male",
+      "min": 1.54,
+      "q25": 2.56,
+      "median": 2.91,
+      "q75": 3.29,
+      "max": 4.17,
+      "mean": 2.94,
+      "count": 19345
+    },
+    {
+      "gender": "Other",
+      "min": 1.45,
+      "q25": 2.33,
+      "median": 2.67,
+      "q75": 3.02,
+      "max": 4.17,
+      "mean": 2.69,
+      "count": 2190
+    }
+  ],
+  "by_activity": [
+    {
+      "activity_level": "High",
+      "min": 1.98,
+      "q25": 2.83,
+      "median": 3.2,
+      "q75": 3.61,
+      "max": 4.17,
+      "mean": 3.23,
+      "count": 9975
+    },
+    {
+      "activity_level": "Low",
+      "min": 1.32,
+      "q25": 2.11,
+      "median": 2.43,
+      "q75": 2.78,
+      "max": 3.9,
+      "mean": 2.46,
+      "count": 9841
+    },
+    {
+      "activity_level": "Medium",
+      "min": 1.62,
+      "q25": 2.48,
+      "median": 2.79,
+      "q75": 3.14,
+      "max": 4.15,
+      "mean": 2.82,
+      "count": 16684
+    }
+  ],
+  "temperature_vs_water": [
+    {
+      "temperature": 15.0,
+      "water": 1.51,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 15.0,
+      "water": 1.87,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 15.0,
+      "water": 1.78,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 15.0,
+      "water": 2.31,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 15.0,
+      "water": 2.55,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 15.0,
+      "water": 1.88,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 15.0,
+      "water": 2.23,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 15.0,
+      "water": 2.11,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 15.3,
+      "water": 2.5,
+      "activity": "High",
+      "gender": "Other"
+    },
+    {
+      "temperature": 15.4,
+      "water": 2.05,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 15.5,
+      "water": 1.91,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 15.5,
+      "water": 2.03,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 16.0,
+      "water": 2.51,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 16.0,
+      "water": 1.81,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 16.0,
+      "water": 2.5,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 16.1,
+      "water": 1.99,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 16.7,
+      "water": 1.67,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 16.9,
+      "water": 2.27,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 16.9,
+      "water": 2.36,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 17.0,
+      "water": 2.13,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.0,
+      "water": 2.37,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 17.1,
+      "water": 2.05,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.1,
+      "water": 2.41,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 17.2,
+      "water": 2.48,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 17.2,
+      "water": 2.22,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.2,
+      "water": 2.35,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.3,
+      "water": 2.33,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 17.4,
+      "water": 2.37,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 17.5,
+      "water": 1.72,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.5,
+      "water": 2.73,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 17.5,
+      "water": 1.94,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.6,
+      "water": 2.11,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.7,
+      "water": 1.56,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 17.8,
+      "water": 2.25,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 17.9,
+      "water": 2.73,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 18.0,
+      "water": 1.88,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 18.0,
+      "water": 2.5,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 18.0,
+      "water": 2.44,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 18.0,
+      "water": 2.21,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 18.2,
+      "water": 2.28,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 18.2,
+      "water": 2.09,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 18.3,
+      "water": 2.56,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 18.3,
+      "water": 2.48,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 18.4,
+      "water": 2.39,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 18.4,
+      "water": 2.43,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 18.6,
+      "water": 2.11,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 18.7,
+      "water": 2.42,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 18.9,
+      "water": 2.02,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.0,
+      "water": 1.9,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.1,
+      "water": 1.83,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 19.1,
+      "water": 2.23,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 19.1,
+      "water": 2.41,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.2,
+      "water": 2.77,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 19.2,
+      "water": 2.66,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 19.3,
+      "water": 2.57,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.4,
+      "water": 2.79,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.7,
+      "water": 2.92,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.8,
+      "water": 2.36,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.8,
+      "water": 2.19,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 19.8,
+      "water": 2.95,
+      "activity": "High",
+      "gender": "Other"
+    },
+    {
+      "temperature": 19.8,
+      "water": 2.34,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.0,
+      "water": 2.31,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 20.0,
+      "water": 2.23,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 20.0,
+      "water": 2.6,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.0,
+      "water": 2.78,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.2,
+      "water": 2.62,
+      "activity": "High",
+      "gender": "Other"
+    },
+    {
+      "temperature": 20.2,
+      "water": 2.61,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.4,
+      "water": 2.32,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.4,
+      "water": 2.32,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.4,
+      "water": 2.35,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.5,
+      "water": 2.46,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 20.6,
+      "water": 2.46,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 20.7,
+      "water": 2.28,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.7,
+      "water": 2.12,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.7,
+      "water": 2.25,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 20.8,
+      "water": 2.71,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.9,
+      "water": 2.43,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 20.9,
+      "water": 2.41,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.0,
+      "water": 2.58,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.0,
+      "water": 2.17,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.0,
+      "water": 1.96,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.1,
+      "water": 1.98,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.1,
+      "water": 2.43,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.1,
+      "water": 2.74,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.1,
+      "water": 2.95,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.2,
+      "water": 1.89,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.2,
+      "water": 2.5,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.2,
+      "water": 2.39,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.3,
+      "water": 2.82,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.3,
+      "water": 2.89,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.4,
+      "water": 2.28,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.5,
+      "water": 2.2,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.6,
+      "water": 3.02,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.6,
+      "water": 2.66,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.6,
+      "water": 2.63,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.7,
+      "water": 2.39,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 21.9,
+      "water": 2.48,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 21.9,
+      "water": 2.38,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 22.1,
+      "water": 2.65,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 22.2,
+      "water": 2.57,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 22.2,
+      "water": 2.86,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 22.2,
+      "water": 2.36,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 22.3,
+      "water": 2.65,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 22.5,
+      "water": 2.77,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 22.5,
+      "water": 2.76,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 22.5,
+      "water": 2.83,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 22.5,
+      "water": 2.2,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 22.6,
+      "water": 2.39,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 22.8,
+      "water": 2.88,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 22.9,
+      "water": 2.42,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 22.9,
+      "water": 2.96,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.1,
+      "water": 2.34,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 23.2,
+      "water": 2.79,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.3,
+      "water": 2.4,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 23.4,
+      "water": 2.57,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.4,
+      "water": 2.16,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.4,
+      "water": 2.96,
+      "activity": "High",
+      "gender": "Other"
+    },
+    {
+      "temperature": 23.5,
+      "water": 2.65,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.5,
+      "water": 2.83,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.6,
+      "water": 2.98,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.8,
+      "water": 2.39,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.8,
+      "water": 2.74,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.8,
+      "water": 2.83,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.9,
+      "water": 2.08,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 23.9,
+      "water": 2.64,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 24.0,
+      "water": 2.79,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 24.2,
+      "water": 2.26,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 24.2,
+      "water": 2.05,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 24.3,
+      "water": 2.1,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 24.4,
+      "water": 2.89,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 24.4,
+      "water": 2.47,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 24.6,
+      "water": 2.24,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 24.6,
+      "water": 2.85,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 24.7,
+      "water": 2.34,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 24.9,
+      "water": 2.18,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 24.9,
+      "water": 2.81,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.1,
+      "water": 2.23,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.1,
+      "water": 2.67,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.2,
+      "water": 3.11,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.3,
+      "water": 2.4,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.3,
+      "water": 2.58,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.3,
+      "water": 2.82,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.4,
+      "water": 2.63,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.4,
+      "water": 2.49,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 25.5,
+      "water": 2.62,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 25.5,
+      "water": 2.4,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.6,
+      "water": 2.71,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 25.8,
+      "water": 3.19,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 25.8,
+      "water": 2.84,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 26.1,
+      "water": 2.51,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 26.1,
+      "water": 2.71,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 26.1,
+      "water": 2.6,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 26.3,
+      "water": 2.12,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 26.3,
+      "water": 2.28,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 26.4,
+      "water": 2.85,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 26.4,
+      "water": 2.89,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 26.4,
+      "water": 2.76,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 26.5,
+      "water": 2.29,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 26.7,
+      "water": 2.96,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 26.8,
+      "water": 2.44,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 27.3,
+      "water": 2.42,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 27.5,
+      "water": 2.98,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 27.6,
+      "water": 3.32,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 27.7,
+      "water": 2.89,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 27.8,
+      "water": 2.33,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 27.8,
+      "water": 2.4,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 27.8,
+      "water": 2.53,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 28.0,
+      "water": 3.18,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 28.1,
+      "water": 2.92,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 28.3,
+      "water": 3.22,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 28.5,
+      "water": 2.99,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 28.8,
+      "water": 2.78,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 28.8,
+      "water": 2.38,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 28.8,
+      "water": 3.15,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 28.8,
+      "water": 3.14,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 28.9,
+      "water": 2.52,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 28.9,
+      "water": 3.1,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 29.0,
+      "water": 2.72,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 29.1,
+      "water": 2.36,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 29.2,
+      "water": 3.15,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 29.2,
+      "water": 2.82,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 29.3,
+      "water": 2.68,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 29.3,
+      "water": 3.04,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 29.5,
+      "water": 3.04,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 29.5,
+      "water": 2.75,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 29.6,
+      "water": 3.11,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 29.6,
+      "water": 3.14,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 29.8,
+      "water": 2.31,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 29.9,
+      "water": 3.28,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 29.9,
+      "water": 2.48,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 30.0,
+      "water": 2.78,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 30.0,
+      "water": 3.22,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 30.2,
+      "water": 2.75,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 30.2,
+      "water": 2.98,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 30.4,
+      "water": 3.2,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 30.5,
+      "water": 2.31,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 30.5,
+      "water": 2.73,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 30.6,
+      "water": 2.25,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 30.8,
+      "water": 2.85,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 30.9,
+      "water": 2.7,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 31.0,
+      "water": 2.8,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 31.1,
+      "water": 2.28,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 31.2,
+      "water": 3.06,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.2,
+      "water": 3.23,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.3,
+      "water": 3.01,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 31.3,
+      "water": 2.98,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.3,
+      "water": 3.16,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.6,
+      "water": 2.38,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 31.6,
+      "water": 3.01,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.7,
+      "water": 2.96,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.7,
+      "water": 2.79,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.8,
+      "water": 3.06,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 31.9,
+      "water": 2.67,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 31.9,
+      "water": 2.21,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 31.9,
+      "water": 2.82,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.0,
+      "water": 3.37,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 32.0,
+      "water": 2.82,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 32.1,
+      "water": 2.73,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.2,
+      "water": 3.53,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.2,
+      "water": 3.12,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.4,
+      "water": 2.53,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.4,
+      "water": 2.98,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 32.5,
+      "water": 3.46,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.5,
+      "water": 2.47,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.5,
+      "water": 3.13,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 32.6,
+      "water": 3.47,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.6,
+      "water": 2.78,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.6,
+      "water": 3.39,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 32.6,
+      "water": 2.52,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.6,
+      "water": 3.48,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 32.7,
+      "water": 3.07,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 32.8,
+      "water": 2.48,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 32.8,
+      "water": 2.68,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.8,
+      "water": 3.5,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 32.9,
+      "water": 2.82,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 33.1,
+      "water": 2.95,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 33.3,
+      "water": 2.63,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 33.3,
+      "water": 2.57,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 33.5,
+      "water": 3.2,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 33.5,
+      "water": 2.7,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 33.5,
+      "water": 2.4,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 33.5,
+      "water": 3.63,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 33.6,
+      "water": 3.4,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 33.6,
+      "water": 2.68,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 33.8,
+      "water": 3.52,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 33.8,
+      "water": 3.03,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 33.9,
+      "water": 3.37,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 33.9,
+      "water": 3.26,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.0,
+      "water": 3.09,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 34.1,
+      "water": 2.36,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.1,
+      "water": 3.46,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.1,
+      "water": 2.61,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.2,
+      "water": 3.09,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 34.2,
+      "water": 2.52,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 34.3,
+      "water": 3.18,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.3,
+      "water": 3.37,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 34.3,
+      "water": 3.43,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.4,
+      "water": 2.99,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 34.6,
+      "water": 3.71,
+      "activity": "High",
+      "gender": "Other"
+    },
+    {
+      "temperature": 34.7,
+      "water": 2.94,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 34.8,
+      "water": 2.77,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.9,
+      "water": 2.95,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.9,
+      "water": 3.44,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 34.9,
+      "water": 2.9,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 35.0,
+      "water": 3.41,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 35.0,
+      "water": 3.23,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.2,
+      "water": 2.97,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.2,
+      "water": 3.88,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.3,
+      "water": 3.68,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.3,
+      "water": 3.43,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.4,
+      "water": 2.99,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.4,
+      "water": 3.75,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.5,
+      "water": 3.09,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.5,
+      "water": 3.14,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 35.6,
+      "water": 3.67,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 35.6,
+      "water": 2.94,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.6,
+      "water": 3.86,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.7,
+      "water": 2.62,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 35.7,
+      "water": 3.04,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 35.8,
+      "water": 3.59,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.9,
+      "water": 3.31,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 35.9,
+      "water": 3.09,
+      "activity": "Medium",
+      "gender": "Other"
+    },
+    {
+      "temperature": 36.0,
+      "water": 2.85,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.0,
+      "water": 3.01,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.0,
+      "water": 3.35,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.0,
+      "water": 2.39,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 36.0,
+      "water": 3.26,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.1,
+      "water": 3.58,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.2,
+      "water": 2.99,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 36.3,
+      "water": 3.68,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.3,
+      "water": 2.76,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.3,
+      "water": 2.86,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.3,
+      "water": 2.95,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 36.4,
+      "water": 2.51,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 36.5,
+      "water": 2.63,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 36.6,
+      "water": 3.23,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 36.6,
+      "water": 3.85,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.6,
+      "water": 3.21,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.6,
+      "water": 3.64,
+      "activity": "High",
+      "gender": "Other"
+    },
+    {
+      "temperature": 36.7,
+      "water": 3.3,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.9,
+      "water": 3.84,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.9,
+      "water": 3.69,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 36.9,
+      "water": 2.96,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.0,
+      "water": 3.66,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.0,
+      "water": 2.84,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.1,
+      "water": 3.23,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.2,
+      "water": 3.14,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.2,
+      "water": 3.11,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.2,
+      "water": 3.09,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.3,
+      "water": 3.18,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.3,
+      "water": 2.94,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.3,
+      "water": 3.85,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.3,
+      "water": 3.65,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.3,
+      "water": 3.06,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.4,
+      "water": 3.19,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.5,
+      "water": 2.83,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.5,
+      "water": 3.2,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.6,
+      "water": 3.64,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.6,
+      "water": 3.71,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.6,
+      "water": 3.11,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 37.6,
+      "water": 3.66,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 37.7,
+      "water": 3.0,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 37.9,
+      "water": 3.5,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.0,
+      "water": 3.29,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.0,
+      "water": 2.93,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 38.0,
+      "water": 2.89,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.1,
+      "water": 3.21,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.1,
+      "water": 3.81,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.1,
+      "water": 3.71,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.1,
+      "water": 3.26,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.1,
+      "water": 3.11,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.3,
+      "water": 3.82,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.3,
+      "water": 3.18,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.3,
+      "water": 3.3,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.3,
+      "water": 3.15,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.4,
+      "water": 3.98,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.5,
+      "water": 2.76,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.6,
+      "water": 2.91,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.6,
+      "water": 3.37,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.8,
+      "water": 2.83,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.8,
+      "water": 2.81,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.8,
+      "water": 3.88,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.9,
+      "water": 3.34,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.9,
+      "water": 2.97,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.9,
+      "water": 3.92,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 38.9,
+      "water": 3.5,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 38.9,
+      "water": 3.55,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.0,
+      "water": 3.75,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.0,
+      "water": 3.71,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.1,
+      "water": 2.81,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.1,
+      "water": 3.44,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.1,
+      "water": 3.73,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.1,
+      "water": 3.25,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.2,
+      "water": 4.01,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.3,
+      "water": 2.85,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.3,
+      "water": 3.16,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 39.3,
+      "water": 2.95,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.4,
+      "water": 3.01,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.6,
+      "water": 3.84,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.6,
+      "water": 3.27,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.6,
+      "water": 3.17,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.7,
+      "water": 3.42,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.7,
+      "water": 2.77,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.7,
+      "water": 3.06,
+      "activity": "Low",
+      "gender": "Other"
+    },
+    {
+      "temperature": 39.8,
+      "water": 3.28,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.8,
+      "water": 3.81,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.8,
+      "water": 4.17,
+      "activity": "High",
+      "gender": "Other"
+    },
+    {
+      "temperature": 39.8,
+      "water": 3.03,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.9,
+      "water": 3.86,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 39.9,
+      "water": 3.58,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 39.9,
+      "water": 3.83,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 40.0,
+      "water": 3.47,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 40.0,
+      "water": 3.46,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 40.1,
+      "water": 3.44,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 40.4,
+      "water": 2.92,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 40.4,
+      "water": 3.5,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 40.4,
+      "water": 3.7,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 40.5,
+      "water": 3.93,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 40.6,
+      "water": 3.63,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 40.6,
+      "water": 4.08,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 40.8,
+      "water": 3.44,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 41.0,
+      "water": 3.36,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 41.1,
+      "water": 3.62,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.1,
+      "water": 3.27,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 41.1,
+      "water": 3.76,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 41.1,
+      "water": 3.64,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.1,
+      "water": 4.17,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.3,
+      "water": 3.96,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.3,
+      "water": 3.93,
+      "activity": "High",
+      "gender": "Female"
+    },
+    {
+      "temperature": 41.3,
+      "water": 3.07,
+      "activity": "Low",
+      "gender": "Female"
+    },
+    {
+      "temperature": 41.3,
+      "water": 3.52,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 41.4,
+      "water": 3.59,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.6,
+      "water": 3.25,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.6,
+      "water": 4.17,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.8,
+      "water": 4.17,
+      "activity": "High",
+      "gender": "Male"
+    },
+    {
+      "temperature": 41.9,
+      "water": 3.42,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 42.0,
+      "water": 3.66,
+      "activity": "Medium",
+      "gender": "Female"
+    },
+    {
+      "temperature": 42.0,
+      "water": 3.71,
+      "activity": "Medium",
+      "gender": "Male"
+    },
+    {
+      "temperature": 42.0,
+      "water": 3.32,
+      "activity": "Low",
+      "gender": "Male"
+    },
+    {
+      "temperature": 42.0,
+      "water": 3.63,
+      "activity": "Medium",
+      "gender": "Female"
+    }
+  ],
+  "actual_vs_pred": [
+    {
+      "actual": 2.75,
+      "linear_regression": 2.412,
+      "random_forest": 2.585
+    },
+    {
+      "actual": 2.1,
+      "linear_regression": 2.861,
+      "random_forest": 2.4
+    },
+    {
+      "actual": 2.54,
+      "linear_regression": 2.288,
+      "random_forest": 2.527
+    },
+    {
+      "actual": 2.9,
+      "linear_regression": 2.866,
+      "random_forest": 2.816
+    },
+    {
+      "actual": 2.15,
+      "linear_regression": 2.831,
+      "random_forest": 2.401
+    },
+    {
+      "actual": 3.12,
+      "linear_regression": 3.022,
+      "random_forest": 3.155
+    },
+    {
+      "actual": 2.71,
+      "linear_regression": 2.641,
+      "random_forest": 2.905
+    },
+    {
+      "actual": 2.7,
+      "linear_regression": 2.54,
+      "random_forest": 2.607
+    },
+    {
+      "actual": 2.09,
+      "linear_regression": 2.427,
+      "random_forest": 1.994
+    },
+    {
+      "actual": 2.16,
+      "linear_regression": 2.526,
+      "random_forest": 2.171
+    },
+    {
+      "actual": 3.23,
+      "linear_regression": 3.542,
+      "random_forest": 3.222
+    },
+    {
+      "actual": 3.72,
+      "linear_regression": 3.508,
+      "random_forest": 3.87
+    },
+    {
+      "actual": 3.22,
+      "linear_regression": 3.147,
+      "random_forest": 3.303
+    },
+    {
+      "actual": 2.49,
+      "linear_regression": 2.092,
+      "random_forest": 2.226
+    },
+    {
+      "actual": 2.32,
+      "linear_regression": 2.337,
+      "random_forest": 2.407
+    },
+    {
+      "actual": 2.15,
+      "linear_regression": 2.503,
+      "random_forest": 2.101
+    },
+    {
+      "actual": 2.48,
+      "linear_regression": 2.488,
+      "random_forest": 2.507
+    },
+    {
+      "actual": 3.17,
+      "linear_regression": 2.69,
+      "random_forest": 2.965
+    },
+    {
+      "actual": 3.25,
+      "linear_regression": 2.899,
+      "random_forest": 2.975
+    },
+    {
+      "actual": 2.36,
+      "linear_regression": 2.268,
+      "random_forest": 2.25
+    },
+    {
+      "actual": 2.3,
+      "linear_regression": 2.798,
+      "random_forest": 2.435
+    },
+    {
+      "actual": 2.49,
+      "linear_regression": 2.684,
+      "random_forest": 2.664
+    },
+    {
+      "actual": 3.36,
+      "linear_regression": 3.108,
+      "random_forest": 3.199
+    },
+    {
+      "actual": 3.09,
+      "linear_regression": 2.613,
+      "random_forest": 2.811
+    },
+    {
+      "actual": 2.55,
+      "linear_regression": 2.493,
+      "random_forest": 2.659
+    },
+    {
+      "actual": 2.73,
+      "linear_regression": 2.763,
+      "random_forest": 2.801
+    },
+    {
+      "actual": 2.96,
+      "linear_regression": 3.149,
+      "random_forest": 2.786
+    },
+    {
+      "actual": 2.7,
+      "linear_regression": 3.388,
+      "random_forest": 3.096
+    },
+    {
+      "actual": 2.8,
+      "linear_regression": 2.569,
+      "random_forest": 2.667
+    },
+    {
+      "actual": 2.89,
+      "linear_regression": 2.987,
+      "random_forest": 2.915
+    },
+    {
+      "actual": 3.72,
+      "linear_regression": 3.377,
+      "random_forest": 3.582
+    },
+    {
+      "actual": 1.61,
+      "linear_regression": 2.191,
+      "random_forest": 1.907
+    },
+    {
+      "actual": 1.79,
+      "linear_regression": 2.416,
+      "random_forest": 2.079
+    },
+    {
+      "actual": 3.2,
+      "linear_regression": 2.94,
+      "random_forest": 3.142
+    },
+    {
+      "actual": 3.73,
+      "linear_regression": 3.441,
+      "random_forest": 3.726
+    },
+    {
+      "actual": 2.66,
+      "linear_regression": 3.23,
+      "random_forest": 2.627
+    },
+    {
+      "actual": 2.28,
+      "linear_regression": 2.035,
+      "random_forest": 2.278
+    },
+    {
+      "actual": 2.54,
+      "linear_regression": 2.298,
+      "random_forest": 2.421
+    },
+    {
+      "actual": 2.53,
+      "linear_regression": 2.44,
+      "random_forest": 2.709
+    },
+    {
+      "actual": 2.99,
+      "linear_regression": 2.582,
+      "random_forest": 2.78
+    },
+    {
+      "actual": 3.9,
+      "linear_regression": 3.666,
+      "random_forest": 3.508
+    },
+    {
+      "actual": 2.71,
+      "linear_regression": 3.182,
+      "random_forest": 2.739
+    },
+    {
+      "actual": 3.14,
+      "linear_regression": 2.742,
+      "random_forest": 2.946
+    },
+    {
+      "actual": 2.34,
+      "linear_regression": 2.202,
+      "random_forest": 2.393
+    },
+    {
+      "actual": 3.0,
+      "linear_regression": 2.763,
+      "random_forest": 2.903
+    },
+    {
+      "actual": 2.93,
+      "linear_regression": 3.353,
+      "random_forest": 2.966
+    },
+    {
+      "actual": 2.48,
+      "linear_regression": 3.141,
+      "random_forest": 2.659
+    },
+    {
+      "actual": 2.85,
+      "linear_regression": 3.374,
+      "random_forest": 2.926
+    },
+    {
+      "actual": 3.6,
+      "linear_regression": 3.204,
+      "random_forest": 3.515
+    },
+    {
+      "actual": 2.38,
+      "linear_regression": 3.072,
+      "random_forest": 2.532
+    },
+    {
+      "actual": 3.16,
+      "linear_regression": 3.286,
+      "random_forest": 2.884
+    },
+    {
+      "actual": 2.94,
+      "linear_regression": 3.252,
+      "random_forest": 2.833
+    },
+    {
+      "actual": 1.82,
+      "linear_regression": 2.196,
+      "random_forest": 1.929
+    },
+    {
+      "actual": 2.12,
+      "linear_regression": 2.652,
+      "random_forest": 2.131
+    },
+    {
+      "actual": 2.61,
+      "linear_regression": 3.072,
+      "random_forest": 2.635
+    },
+    {
+      "actual": 3.76,
+      "linear_regression": 3.407,
+      "random_forest": 3.586
+    },
+    {
+      "actual": 3.26,
+      "linear_regression": 3.232,
+      "random_forest": 3.366
+    },
+    {
+      "actual": 2.38,
+      "linear_regression": 2.409,
+      "random_forest": 2.564
+    },
+    {
+      "actual": 1.8,
+      "linear_regression": 2.472,
+      "random_forest": 1.98
+    },
+    {
+      "actual": 2.88,
+      "linear_regression": 2.752,
+      "random_forest": 2.794
+    },
+    {
+      "actual": 3.09,
+      "linear_regression": 3.001,
+      "random_forest": 3.331
+    },
+    {
+      "actual": 2.42,
+      "linear_regression": 2.411,
+      "random_forest": 2.5
+    },
+    {
+      "actual": 3.99,
+      "linear_regression": 3.696,
+      "random_forest": 4.105
+    },
+    {
+      "actual": 3.66,
+      "linear_regression": 3.467,
+      "random_forest": 3.78
+    },
+    {
+      "actual": 3.23,
+      "linear_regression": 2.912,
+      "random_forest": 3.129
+    },
+    {
+      "actual": 2.58,
+      "linear_regression": 2.427,
+      "random_forest": 2.578
+    },
+    {
+      "actual": 3.92,
+      "linear_regression": 3.659,
+      "random_forest": 3.942
+    },
+    {
+      "actual": 2.44,
+      "linear_regression": 2.369,
+      "random_forest": 2.52
+    },
+    {
+      "actual": 2.89,
+      "linear_regression": 2.696,
+      "random_forest": 2.87
+    },
+    {
+      "actual": 3.35,
+      "linear_regression": 2.991,
+      "random_forest": 3.212
+    },
+    {
+      "actual": 3.14,
+      "linear_regression": 3.185,
+      "random_forest": 3.384
+    },
+    {
+      "actual": 2.74,
+      "linear_regression": 2.913,
+      "random_forest": 2.843
+    },
+    {
+      "actual": 3.76,
+      "linear_regression": 3.488,
+      "random_forest": 3.72
+    },
+    {
+      "actual": 2.5,
+      "linear_regression": 2.994,
+      "random_forest": 2.547
+    },
+    {
+      "actual": 2.69,
+      "linear_regression": 2.801,
+      "random_forest": 2.736
+    },
+    {
+      "actual": 2.95,
+      "linear_regression": 2.848,
+      "random_forest": 2.909
+    },
+    {
+      "actual": 2.64,
+      "linear_regression": 2.504,
+      "random_forest": 2.552
+    },
+    {
+      "actual": 2.55,
+      "linear_regression": 2.863,
+      "random_forest": 2.891
+    },
+    {
+      "actual": 3.04,
+      "linear_regression": 3.38,
+      "random_forest": 2.939
+    },
+    {
+      "actual": 2.49,
+      "linear_regression": 2.936,
+      "random_forest": 2.475
+    },
+    {
+      "actual": 2.82,
+      "linear_regression": 2.837,
+      "random_forest": 2.973
+    },
+    {
+      "actual": 2.79,
+      "linear_regression": 2.759,
+      "random_forest": 2.638
+    },
+    {
+      "actual": 3.17,
+      "linear_regression": 3.013,
+      "random_forest": 3.057
+    },
+    {
+      "actual": 3.29,
+      "linear_regression": 3.064,
+      "random_forest": 3.135
+    },
+    {
+      "actual": 3.02,
+      "linear_regression": 2.911,
+      "random_forest": 3.058
+    },
+    {
+      "actual": 3.25,
+      "linear_regression": 3.185,
+      "random_forest": 3.436
+    },
+    {
+      "actual": 2.85,
+      "linear_regression": 2.565,
+      "random_forest": 2.884
+    },
+    {
+      "actual": 2.15,
+      "linear_regression": 2.093,
+      "random_forest": 2.218
+    },
+    {
+      "actual": 2.06,
+      "linear_regression": 2.426,
+      "random_forest": 2.147
+    },
+    {
+      "actual": 2.55,
+      "linear_regression": 2.501,
+      "random_forest": 2.512
+    },
+    {
+      "actual": 3.75,
+      "linear_regression": 3.48,
+      "random_forest": 3.933
+    },
+    {
+      "actual": 3.33,
+      "linear_regression": 3.738,
+      "random_forest": 3.387
+    },
+    {
+      "actual": 2.09,
+      "linear_regression": 2.64,
+      "random_forest": 2.2
+    },
+    {
+      "actual": 2.08,
+      "linear_regression": 2.55,
+      "random_forest": 2.22
+    },
+    {
+      "actual": 3.25,
+      "linear_regression": 2.993,
+      "random_forest": 3.263
+    },
+    {
+      "actual": 3.11,
+      "linear_regression": 2.983,
+      "random_forest": 3.15
+    },
+    {
+      "actual": 2.98,
+      "linear_regression": 2.913,
+      "random_forest": 2.917
+    },
+    {
+      "actual": 3.35,
+      "linear_regression": 3.131,
+      "random_forest": 3.081
+    },
+    {
+      "actual": 2.96,
+      "linear_regression": 2.977,
+      "random_forest": 3.157
+    },
+    {
+      "actual": 3.08,
+      "linear_regression": 3.323,
+      "random_forest": 2.839
+    },
+    {
+      "actual": 2.85,
+      "linear_regression": 2.893,
+      "random_forest": 2.927
+    },
+    {
+      "actual": 2.35,
+      "linear_regression": 2.446,
+      "random_forest": 2.554
+    },
+    {
+      "actual": 2.8,
+      "linear_regression": 2.944,
+      "random_forest": 3.008
+    },
+    {
+      "actual": 2.57,
+      "linear_regression": 2.485,
+      "random_forest": 2.443
+    },
+    {
+      "actual": 2.55,
+      "linear_regression": 3.078,
+      "random_forest": 2.596
+    },
+    {
+      "actual": 2.3,
+      "linear_regression": 2.68,
+      "random_forest": 2.335
+    },
+    {
+      "actual": 2.51,
+      "linear_regression": 2.673,
+      "random_forest": 2.876
+    },
+    {
+      "actual": 2.62,
+      "linear_regression": 2.409,
+      "random_forest": 2.599
+    },
+    {
+      "actual": 2.63,
+      "linear_regression": 2.748,
+      "random_forest": 3.067
+    },
+    {
+      "actual": 2.73,
+      "linear_regression": 2.942,
+      "random_forest": 3.153
+    },
+    {
+      "actual": 2.78,
+      "linear_regression": 2.876,
+      "random_forest": 2.925
+    },
+    {
+      "actual": 2.31,
+      "linear_regression": 2.286,
+      "random_forest": 2.444
+    },
+    {
+      "actual": 4.17,
+      "linear_regression": 3.818,
+      "random_forest": 4.169
+    },
+    {
+      "actual": 3.3,
+      "linear_regression": 3.418,
+      "random_forest": 3.468
+    },
+    {
+      "actual": 2.62,
+      "linear_regression": 3.161,
+      "random_forest": 2.674
+    },
+    {
+      "actual": 1.9,
+      "linear_regression": 2.223,
+      "random_forest": 1.713
+    },
+    {
+      "actual": 3.66,
+      "linear_regression": 3.419,
+      "random_forest": 3.619
+    },
+    {
+      "actual": 2.47,
+      "linear_regression": 2.42,
+      "random_forest": 2.681
+    },
+    {
+      "actual": 2.12,
+      "linear_regression": 2.558,
+      "random_forest": 2.31
+    },
+    {
+      "actual": 3.16,
+      "linear_regression": 3.141,
+      "random_forest": 3.189
+    },
+    {
+      "actual": 2.43,
+      "linear_regression": 2.414,
+      "random_forest": 2.595
+    },
+    {
+      "actual": 3.71,
+      "linear_regression": 3.364,
+      "random_forest": 3.546
+    },
+    {
+      "actual": 2.91,
+      "linear_regression": 2.901,
+      "random_forest": 3.034
+    },
+    {
+      "actual": 3.22,
+      "linear_regression": 3.045,
+      "random_forest": 3.099
+    },
+    {
+      "actual": 2.69,
+      "linear_regression": 2.161,
+      "random_forest": 2.387
+    },
+    {
+      "actual": 3.22,
+      "linear_regression": 2.791,
+      "random_forest": 2.932
+    },
+    {
+      "actual": 2.28,
+      "linear_regression": 2.214,
+      "random_forest": 2.39
+    },
+    {
+      "actual": 2.0,
+      "linear_regression": 2.013,
+      "random_forest": 2.3
+    },
+    {
+      "actual": 2.13,
+      "linear_regression": 2.409,
+      "random_forest": 1.987
+    },
+    {
+      "actual": 2.24,
+      "linear_regression": 2.138,
+      "random_forest": 2.212
+    },
+    {
+      "actual": 3.76,
+      "linear_regression": 3.405,
+      "random_forest": 3.631
+    },
+    {
+      "actual": 3.37,
+      "linear_regression": 3.386,
+      "random_forest": 2.974
+    },
+    {
+      "actual": 3.18,
+      "linear_regression": 3.265,
+      "random_forest": 3.456
+    },
+    {
+      "actual": 2.32,
+      "linear_regression": 2.203,
+      "random_forest": 2.324
+    },
+    {
+      "actual": 3.04,
+      "linear_regression": 3.053,
+      "random_forest": 3.067
+    },
+    {
+      "actual": 2.21,
+      "linear_regression": 2.7,
+      "random_forest": 2.264
+    },
+    {
+      "actual": 2.66,
+      "linear_regression": 2.291,
+      "random_forest": 2.445
+    },
+    {
+      "actual": 2.26,
+      "linear_regression": 2.793,
+      "random_forest": 2.378
+    },
+    {
+      "actual": 2.55,
+      "linear_regression": 3.015,
+      "random_forest": 2.634
+    },
+    {
+      "actual": 3.42,
+      "linear_regression": 3.575,
+      "random_forest": 3.407
+    },
+    {
+      "actual": 3.05,
+      "linear_regression": 2.851,
+      "random_forest": 2.94
+    },
+    {
+      "actual": 2.56,
+      "linear_regression": 2.414,
+      "random_forest": 2.595
+    },
+    {
+      "actual": 3.77,
+      "linear_regression": 3.364,
+      "random_forest": 3.598
+    },
+    {
+      "actual": 2.52,
+      "linear_regression": 2.314,
+      "random_forest": 2.659
+    },
+    {
+      "actual": 2.78,
+      "linear_regression": 2.679,
+      "random_forest": 2.826
+    },
+    {
+      "actual": 2.44,
+      "linear_regression": 2.27,
+      "random_forest": 2.558
+    },
+    {
+      "actual": 2.05,
+      "linear_regression": 2.006,
+      "random_forest": 2.069
+    },
+    {
+      "actual": 2.27,
+      "linear_regression": 2.919,
+      "random_forest": 2.361
+    },
+    {
+      "actual": 2.32,
+      "linear_regression": 2.467,
+      "random_forest": 2.155
+    },
+    {
+      "actual": 2.76,
+      "linear_regression": 2.911,
+      "random_forest": 2.509
+    },
+    {
+      "actual": 2.89,
+      "linear_regression": 3.239,
+      "random_forest": 3.037
+    },
+    {
+      "actual": 2.53,
+      "linear_regression": 2.363,
+      "random_forest": 2.466
+    },
+    {
+      "actual": 2.47,
+      "linear_regression": 2.287,
+      "random_forest": 2.444
+    },
+    {
+      "actual": 2.57,
+      "linear_regression": 2.385,
+      "random_forest": 2.538
+    },
+    {
+      "actual": 2.83,
+      "linear_regression": 3.306,
+      "random_forest": 2.867
+    },
+    {
+      "actual": 2.88,
+      "linear_regression": 3.29,
+      "random_forest": 2.914
+    },
+    {
+      "actual": 2.41,
+      "linear_regression": 2.473,
+      "random_forest": 2.527
+    },
+    {
+      "actual": 2.97,
+      "linear_regression": 2.916,
+      "random_forest": 3.187
+    },
+    {
+      "actual": 2.71,
+      "linear_regression": 2.587,
+      "random_forest": 2.663
+    },
+    {
+      "actual": 3.19,
+      "linear_regression": 3.112,
+      "random_forest": 3.377
+    },
+    {
+      "actual": 2.7,
+      "linear_regression": 3.083,
+      "random_forest": 2.638
+    },
+    {
+      "actual": 3.66,
+      "linear_regression": 3.431,
+      "random_forest": 3.719
+    },
+    {
+      "actual": 3.26,
+      "linear_regression": 3.54,
+      "random_forest": 3.249
+    },
+    {
+      "actual": 2.77,
+      "linear_regression": 2.626,
+      "random_forest": 2.802
+    },
+    {
+      "actual": 2.87,
+      "linear_regression": 3.279,
+      "random_forest": 2.978
+    },
+    {
+      "actual": 1.67,
+      "linear_regression": 2.215,
+      "random_forest": 1.896
+    },
+    {
+      "actual": 3.01,
+      "linear_regression": 2.824,
+      "random_forest": 2.89
+    },
+    {
+      "actual": 3.34,
+      "linear_regression": 3.245,
+      "random_forest": 3.402
+    },
+    {
+      "actual": 2.07,
+      "linear_regression": 2.475,
+      "random_forest": 2.016
+    },
+    {
+      "actual": 3.29,
+      "linear_regression": 3.274,
+      "random_forest": 3.445
+    },
+    {
+      "actual": 3.31,
+      "linear_regression": 3.185,
+      "random_forest": 3.54
+    },
+    {
+      "actual": 3.48,
+      "linear_regression": 3.407,
+      "random_forest": 3.785
+    },
+    {
+      "actual": 1.7,
+      "linear_regression": 2.333,
+      "random_forest": 1.898
+    },
+    {
+      "actual": 2.26,
+      "linear_regression": 2.329,
+      "random_forest": 2.569
+    },
+    {
+      "actual": 3.14,
+      "linear_regression": 3.046,
+      "random_forest": 3.139
+    },
+    {
+      "actual": 2.82,
+      "linear_regression": 2.899,
+      "random_forest": 2.854
+    },
+    {
+      "actual": 2.94,
+      "linear_regression": 2.798,
+      "random_forest": 2.967
+    },
+    {
+      "actual": 2.09,
+      "linear_regression": 2.508,
+      "random_forest": 2.041
+    },
+    {
+      "actual": 1.71,
+      "linear_regression": 2.208,
+      "random_forest": 1.791
+    },
+    {
+      "actual": 3.93,
+      "linear_regression": 3.666,
+      "random_forest": 4.017
+    },
+    {
+      "actual": 2.48,
+      "linear_regression": 2.427,
+      "random_forest": 2.422
+    },
+    {
+      "actual": 3.92,
+      "linear_regression": 3.538,
+      "random_forest": 3.807
+    },
+    {
+      "actual": 3.15,
+      "linear_regression": 2.855,
+      "random_forest": 2.94
+    },
+    {
+      "actual": 2.65,
+      "linear_regression": 2.628,
+      "random_forest": 2.739
+    },
+    {
+      "actual": 3.52,
+      "linear_regression": 3.289,
+      "random_forest": 3.525
+    },
+    {
+      "actual": 2.46,
+      "linear_regression": 2.669,
+      "random_forest": 2.306
+    },
+    {
+      "actual": 1.63,
+      "linear_regression": 2.314,
+      "random_forest": 1.869
+    },
+    {
+      "actual": 2.89,
+      "linear_regression": 2.936,
+      "random_forest": 3.058
+    },
+    {
+      "actual": 3.61,
+      "linear_regression": 3.331,
+      "random_forest": 3.533
+    },
+    {
+      "actual": 2.31,
+      "linear_regression": 2.711,
+      "random_forest": 2.305
+    },
+    {
+      "actual": 2.28,
+      "linear_regression": 2.797,
+      "random_forest": 2.505
+    },
+    {
+      "actual": 2.89,
+      "linear_regression": 3.034,
+      "random_forest": 2.575
+    },
+    {
+      "actual": 2.21,
+      "linear_regression": 2.326,
+      "random_forest": 2.431
+    },
+    {
+      "actual": 4.17,
+      "linear_regression": 3.76,
+      "random_forest": 4.125
+    },
+    {
+      "actual": 2.78,
+      "linear_regression": 2.953,
+      "random_forest": 3.054
+    },
+    {
+      "actual": 2.59,
+      "linear_regression": 2.857,
+      "random_forest": 2.349
+    },
+    {
+      "actual": 3.3,
+      "linear_regression": 2.982,
+      "random_forest": 3.25
+    },
+    {
+      "actual": 3.37,
+      "linear_regression": 3.372,
+      "random_forest": 3.537
+    },
+    {
+      "actual": 2.48,
+      "linear_regression": 2.382,
+      "random_forest": 2.618
+    },
+    {
+      "actual": 2.27,
+      "linear_regression": 2.079,
+      "random_forest": 2.389
+    },
+    {
+      "actual": 3.46,
+      "linear_regression": 3.238,
+      "random_forest": 3.444
+    },
+    {
+      "actual": 2.45,
+      "linear_regression": 2.373,
+      "random_forest": 2.629
+    },
+    {
+      "actual": 2.55,
+      "linear_regression": 2.33,
+      "random_forest": 2.617
+    },
+    {
+      "actual": 3.66,
+      "linear_regression": 3.439,
+      "random_forest": 3.535
+    },
+    {
+      "actual": 2.79,
+      "linear_regression": 2.741,
+      "random_forest": 2.87
+    },
+    {
+      "actual": 2.89,
+      "linear_regression": 2.67,
+      "random_forest": 2.817
+    },
+    {
+      "actual": 3.38,
+      "linear_regression": 3.077,
+      "random_forest": 3.37
+    },
+    {
+      "actual": 3.39,
+      "linear_regression": 3.313,
+      "random_forest": 3.223
+    },
+    {
+      "actual": 2.0,
+      "linear_regression": 2.485,
+      "random_forest": 2.156
+    },
+    {
+      "actual": 2.31,
+      "linear_regression": 2.49,
+      "random_forest": 2.17
+    },
+    {
+      "actual": 2.55,
+      "linear_regression": 3.165,
+      "random_forest": 2.661
+    },
+    {
+      "actual": 2.49,
+      "linear_regression": 3.249,
+      "random_forest": 2.957
+    },
+    {
+      "actual": 3.59,
+      "linear_regression": 3.327,
+      "random_forest": 3.499
+    },
+    {
+      "actual": 3.04,
+      "linear_regression": 3.103,
+      "random_forest": 3.174
+    },
+    {
+      "actual": 2.7,
+      "linear_regression": 2.685,
+      "random_forest": 2.679
+    },
+    {
+      "actual": 2.79,
+      "linear_regression": 2.657,
+      "random_forest": 2.863
+    },
+    {
+      "actual": 3.54,
+      "linear_regression": 3.251,
+      "random_forest": 3.468
+    },
+    {
+      "actual": 2.45,
+      "linear_regression": 3.036,
+      "random_forest": 2.431
+    },
+    {
+      "actual": 3.84,
+      "linear_regression": 3.487,
+      "random_forest": 3.651
+    },
+    {
+      "actual": 2.25,
+      "linear_regression": 2.6,
+      "random_forest": 2.187
+    },
+    {
+      "actual": 2.78,
+      "linear_regression": 2.459,
+      "random_forest": 2.56
+    },
+    {
+      "actual": 2.71,
+      "linear_regression": 2.91,
+      "random_forest": 2.932
+    },
+    {
+      "actual": 2.21,
+      "linear_regression": 2.365,
+      "random_forest": 1.989
+    },
+    {
+      "actual": 2.9,
+      "linear_regression": 2.802,
+      "random_forest": 3.02
+    },
+    {
+      "actual": 2.89,
+      "linear_regression": 2.657,
+      "random_forest": 2.941
+    },
+    {
+      "actual": 2.56,
+      "linear_regression": 2.361,
+      "random_forest": 2.499
+    },
+    {
+      "actual": 1.86,
+      "linear_regression": 2.204,
+      "random_forest": 1.928
+    },
+    {
+      "actual": 2.87,
+      "linear_regression": 2.871,
+      "random_forest": 2.857
+    },
+    {
+      "actual": 2.9,
+      "linear_regression": 3.085,
+      "random_forest": 3.224
+    },
+    {
+      "actual": 2.95,
+      "linear_regression": 2.653,
+      "random_forest": 3.015
+    },
+    {
+      "actual": 2.28,
+      "linear_regression": 2.214,
+      "random_forest": 2.39
+    },
+    {
+      "actual": 2.4,
+      "linear_regression": 2.426,
+      "random_forest": 2.577
+    },
+    {
+      "actual": 2.34,
+      "linear_regression": 2.396,
+      "random_forest": 2.555
+    },
+    {
+      "actual": 2.79,
+      "linear_regression": 2.739,
+      "random_forest": 2.778
+    },
+    {
+      "actual": 2.08,
+      "linear_regression": 2.137,
+      "random_forest": 2.323
+    },
+    {
+      "actual": 3.99,
+      "linear_regression": 3.604,
+      "random_forest": 3.975
+    },
+    {
+      "actual": 2.61,
+      "linear_regression": 3.11,
+      "random_forest": 2.656
+    },
+    {
+      "actual": 2.04,
+      "linear_regression": 2.459,
+      "random_forest": 1.964
+    },
+    {
+      "actual": 3.61,
+      "linear_regression": 3.308,
+      "random_forest": 3.465
+    },
+    {
+      "actual": 2.67,
+      "linear_regression": 2.424,
+      "random_forest": 2.564
+    },
+    {
+      "actual": 3.09,
+      "linear_regression": 2.988,
+      "random_forest": 3.074
+    },
+    {
+      "actual": 3.46,
+      "linear_regression": 3.275,
+      "random_forest": 3.487
+    },
+    {
+      "actual": 2.86,
+      "linear_regression": 2.481,
+      "random_forest": 2.766
+    },
+    {
+      "actual": 2.45,
+      "linear_regression": 2.632,
+      "random_forest": 2.775
+    },
+    {
+      "actual": 2.96,
+      "linear_regression": 2.829,
+      "random_forest": 2.918
+    },
+    {
+      "actual": 2.35,
+      "linear_regression": 2.189,
+      "random_forest": 2.18
+    },
+    {
+      "actual": 2.39,
+      "linear_regression": 2.125,
+      "random_forest": 2.351
+    },
+    {
+      "actual": 3.37,
+      "linear_regression": 3.297,
+      "random_forest": 3.472
+    },
+    {
+      "actual": 2.54,
+      "linear_regression": 2.908,
+      "random_forest": 2.632
+    },
+    {
+      "actual": 3.69,
+      "linear_regression": 3.445,
+      "random_forest": 3.709
+    }
+  ],
+  "cities": [
+    "Faisalabad",
+    "Islamabad",
+    "Karachi",
+    "Lahore",
+    "Multan",
+    "Peshawar",
+    "Quetta",
+    "Rawalpindi"
+  ],
+  "genders": [
+    "Female",
+    "Male",
+    "Other"
+  ],
+  "activities": [
+    "High",
+    "Low",
+    "Medium"
+  ]
+}
